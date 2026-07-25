@@ -1,13 +1,17 @@
----
+# CRUD Cycle & Roster Registration Log
 
-## Roster Registration & Conflict Test
+## Task 1: CRUD Cycle
 
-### First Attempt (Registration)
+### Step 1: POST /api/posts (Create)
 ```http
 HTTP/1.1 201 Created
-Content-Type: application/json
+Date: Sat, 25 Jul 2026 19:04:14 GMT
+Content-Type: application/json; charset=utf-8
 
 {
-  "message": "Student registered successfully",
-  "username": "tareq"
+  "id": 33,
+  "title": "exploring",
+  "body": "full cycle",
+  "author": "tareq",
+  "created_at": "2026-07-25 19:04:14"
 }
